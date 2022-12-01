@@ -1,5 +1,5 @@
 def func_text(func_name, *args):
-    func_name = func_name.__name__.replace("_", " ").title()
+    func_name = func_name.__name__.replace("_", " ").title() + ":"
     print(func_name, *args)
 
 
